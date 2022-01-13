@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*<=---Utility Class---=>*/
+#btn-free {
+    background-color: #30a258;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 60px;
+    border-radius: 30px;
+    border: none;
+    letter-spacing: 1px; /*para ter espaço entre as letras*/
+    font-weight: bolder;
+    transition: all 1s ease;
+}
+
+#btn-free:hover {
+    background: #2bff75;
+    cursor: pointer;
+}
+
+
+.logo {
+    height: 40px;
+    width: auto;
+}
+
+
+
+/*<=---NAVBAR---=>*/
+
+#navbar {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5 );
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+}
+
+#navbar .navbar-container {
+    width: 60%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding:20px 0 ;
+}
+
+#navbar .navbar-container ul {
+    list-style: none;
+    display: flex;
+    font-weight: bolder;
+}
+
+#navbar .navbar-container ul li {
+    padding: 0 20px;
+    transition: all 0.9s ease;
+}
+
+#navbar .navbar-container ul li:hover{
+    color:#40d574 ;
+    cursor: pointer;
+}
+
+#navbar .navbar-container ul li:nth-child(3) {
+    border-right: 2px solid white;
+}
+
+
+/*<=---Showcase---=>*/
+
+#Showcase {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url("img/showcase.webp") center center/cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: color;
+}
+
+#Showcase .showcase-container {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+#Showcase .showcase-container h2 {
+    font-size: 5rem;
+}
+
+#Showcase .showcase-container p {
+    margin: 15px 0;
+    font-size: 1.1rem;
+}
+
+
+/*<=---FOOTER---=>*/
+
+#footer {
+    background: black;
+    color: white;
+
+}
+
+#footer p {
+    font-weight: bold;
+    color:#919496;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    transition: all 1s ease;
+}
+
+#footer p:hover{
+    color: #5aff93; 
+
+}
+
+#footer .footer-content {
+    display: flex;
+    width: 65%;
+    margin: auto;
+    padding:  50px;
+    justify-content: space-between;
+}
+
+#footer .footer-content .footer-menu {
+    margin: 0 50px;
+    list-style: none;
+}
+
+#footer .footer-content .footer-menu .footer-menu-item {
+    margin: 27px  0;
+    transition: all 1s ease;
+}
+    
+#footer .footer-content .footer-menu .footer-menu-item:hover{  
+    color: #5aff93; 
+    cursor: pointer;
+}
+
+    /*Footer socials*/
+
+.socials {
+    display: flex;
+}
+
+.socials i {
+    margin: 0 20px;
+    font-size: 1.8rem;
+}
+
+#footer .autor p {
+    font-size: 0.8rem;
+    transition: all 1s ease;
+}
+
+#footer .autor p:hover {
+    color: #5aff93;
+
+}
